@@ -8,27 +8,36 @@ import fazenda from "./img/fazenda.jpg"
 import camera from "./img/camera.jpg"
 const Caixa = styled.div`
   background-color: white;
-  padding: 2.5rem;
+  padding-top: 2.5rem;
+  padding-left: 2.5rem;
   display: flex;
   align-items: center;
   gap: 5rem;
   @media (max-width: 1024px){
     flex-direction: column;
   }
+  @media (max-width: 768px){
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+  }
 `;
 const CaixaConteudo = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1.5rem;
 `;
 const Imagem = styled.img`
   max-width: 100%;
+  border-radius: 5px;
+
   height: auto;
   @media (min-width: 1280px){
-   max-width: 600px;
+   max-width: 00px;
   }
   @media (min-width: 1024px){
-   max-width: 600px;
+   max-width: 500px;
   }
   
 `;

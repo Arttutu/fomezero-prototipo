@@ -26,17 +26,23 @@ export default function Home() {
         />
         <ConteudoInvertido 
         titulo="Ácaro Vermelho" 
-        subtitulo= " Utilize IA para combater os Ácaros da sua Fazenda"
-        descricao = "O Ácaro Vermelho é uma solução baseada em Inteligência Artificial para o combate efetivo dos ácaros na sua fazenda. Com algoritmos avançados, ele monitora e identifica os invasores indesejados, proporcionando o controle necessário para proteger suas plantações. Aproveite os benefícios da IA na agricultura e livre-se dos ácaros com facilidade"
+        subtitulo= "Os invasores"
+        descricao = "Os ácaros vermelhos são pequenos aracnídeos de cor avermelhada que podem causar danos significativos às plantas. Eles se alimentam da seiva das plantas, enfraquecendo-as e comprometendo seu crescimento saudável. Esses ácaros são particularmente prejudiciais em lavouras e jardins, onde podem se proliferar rapidamente e causar sérios prejuízos na produção agrícola."
+        imagem = "acaro"
         />
         <Conteudo
         titulo="Monitoramento com Câmera na lavoura"
         subtitulo="Detecção precisa de Ácaros Vermelhos: Monitore sua lavoura com IA e câmeras em postes"
-        descricao="monitora a sua lavoura utilizando Inteligência Artificial 
+        descricao="Monitora a sua lavoura utilizando Inteligência Artificial 
         e câmeras estrategicamente posicionadas em postes. Com a combinação poderosa da IA e algoritmos avançados,
-         nosso sistema detecta de forma precisa os Ácaros Vermelhos ! proporcionando o controle necessário para proteger suas plantações. 
+         nosso sistema detecta de forma precisa os Ácaros Vermelhos ! Alertando e acionando sitemas para combater o avanço do ácaro. 
       "
 
+        />
+          <ConteudoInvertido 
+        titulo="IA generativa" 
+        subtitulo= "como vamos indentificar ?"
+        descricao = "Vamos utilizar IA generativa , abastecemos nossa IA com várias fotos dos ácaros vermelho, assim a nossa solução consiguira distiguir e  indentificar os invasores , aumentando a produtividade e reduzindo o prejuízo! "
         />
        
 
