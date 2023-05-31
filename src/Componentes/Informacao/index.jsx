@@ -9,7 +9,7 @@ import { CaixaConteudo } from '../Conteudo'
 const Caixa = styled.section `
  background-color: ${corSecundaria};
  text-align: center;
- padding: 0 2.5rem;
+ padding: 100px 2.5rem;
  display: flex;
  justify-content: center;
  align-items: top;
@@ -19,7 +19,7 @@ const Caixa = styled.section `
   }
 `
 export const CaixaInfo = styled.div`
-  padding-top: 100px;
+  
   padding-bottom: 100px;
   display: flex;
   flex-direction: column;
