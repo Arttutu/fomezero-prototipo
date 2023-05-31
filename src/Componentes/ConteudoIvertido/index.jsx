@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import Botao from '../Botao'
 import acaro from "./img/acaro.jpg"
 import ia from "./img/ia.jpg"
-const Caixa = styled.div`
+const Caixa = styled.section`
   background-color: white;
   padding-top: 100px;
   padding-right: 2.5rem;

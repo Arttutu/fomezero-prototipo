@@ -8,7 +8,7 @@ import fazenda from "./img/fazenda.jpg"
 import camera from "./img/camera.jpg"
 import { corSecundaria } from '../UI/variaveis'
 import Imagem from '../Imagem'
-const Caixa = styled.div`
+const Caixa = styled.section`
   background-color: ${corSecundaria};
   padding-top: 100px;
   padding-left: 2.5rem;
@@ -25,7 +25,8 @@ const Caixa = styled.div`
     text-align: center;
   }
 `;
-const CaixaConteudo = styled.div`
+export const CaixaConteudo = styled.div`
+  
   display: flex;
   flex-direction: column;
   align-items: center;

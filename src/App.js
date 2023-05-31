@@ -1,5 +1,6 @@
 import Home from "./Paginas/Home";
 import {GlobalStyle} from "./Componentes/GlobalStyle"
+import Rodape from "./Componentes/Rodape";
 
 
 
@@ -9,7 +10,7 @@ function App() {
   <>
     <GlobalStyle />
     <Home />
-
+    <Rodape />
   </>
   ) 
  

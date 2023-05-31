@@ -2,9 +2,9 @@ import React from 'react'
 import Conteudo from '../../Componentes/Conteudo'
 import {backgroundColor} from "../../Componentes/UI/variaveis"
 import styled from 'styled-components'
-
 import ConteudoInvertido from '../../Componentes/ConteudoIvertido';
-import Parceiros from '../../Componentes/Parceiros';
+
+import Informacao from '../../Componentes/Informacao';
 
 const Principal = styled.main`
     background-color: ${backgroundColor};
@@ -25,9 +25,8 @@ export default function Home() {
   return (
     <Principal >
     <Container>
-
         <Conteudo  
-        titulo="Farn Clean" 
+        titulo="Farm Clean" 
         subtitulo= "Utilize IA para combater os Ácaros da sua Fazenda"
         descricao = "O Farn Clean é uma solução inovadora que utiliza Inteligência Artificial para monitorar e combater os ácaros indesejados em sua fazenda. Com a poderosa combinação entre IA e agricultura, você terá uma lavoura mais saudável e produtiva, garantindo o sucesso do seu investimento."
         imagem= "fazenda"
@@ -45,7 +44,6 @@ export default function Home() {
         e câmeras estrategicamente posicionadas em postes. Com a combinação poderosa da IA e algoritmos avançados,
          nosso sistema detecta de forma precisa os Ácaros Vermelhos ! Alertando e acionando sitemas para combater o avanço do ácaro. 
       "
-
         />
           <ConteudoInvertido 
         titulo="IA generativa" 
@@ -53,10 +51,10 @@ export default function Home() {
         descricao = "Vamos utilizar IA generativa , abastecemos nossa IA com várias fotos dos ácaros vermelho, assim a nossa solução consiguira distiguir e  indentificar os invasores , aumentando a produtividade e reduzindo o prejuízo! "
         />
         
-        <Parceiros/>
-       
-
+        <Informacao/>
     </Container>
+
+      
 
 
     
