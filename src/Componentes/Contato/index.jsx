@@ -34,7 +34,7 @@ export default function Contato() {
     <>
     <CaixaInfo >
         <Titulo>Entre em Contato</Titulo>
-        <Descricao>Vamos contruir um futuro melhor , aumente a produtividade da sua fazenda e ajude a comabater a fome no mundo !</Descricao>
+        <Descricao>Vamos contruir um futuro melhor, aumente a produtividade da sua fazenda e ajude a combater a fome  e a insegurança alimentar  no mundo !</Descricao>
         <CaixaIcone>
           <StyledIcon  />
           <Subtitulo contato>E-mail</Subtitulo>

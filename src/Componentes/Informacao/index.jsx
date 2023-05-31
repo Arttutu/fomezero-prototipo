@@ -13,7 +13,7 @@ const Caixa = styled.section `
  display: flex;
  justify-content: center;
  align-items: top;
- gap: 1rem;
+ gap: 5rem;
  @media (max-width: 768px){
     flex-direction: column;
   }
