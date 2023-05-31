@@ -11,6 +11,7 @@ const Caixa = styled.div`
   padding-top: 100px;
   padding-right: 2.5rem;
   display: flex;
+  text-align: center;
   align-items: center;
   gap: 5rem;
 

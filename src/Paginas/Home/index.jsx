@@ -11,6 +11,7 @@ const Principal = styled.main`
     width: 100%;
     margin: 0;
     padding-top: 80px;
+   
 `;
 const Container = styled.div`
   width: 100%;

@@ -6,15 +6,18 @@ import styled from 'styled-components'
 import Botao from '../Botao'
 import fazenda from "./img/fazenda.jpg"
 import camera from "./img/camera.jpg"
+import { corSecundaria } from '../UI/variaveis'
+import Imagem from '../Imagem'
 const Caixa = styled.div`
-  background-color: white;
+  background-color: ${corSecundaria};
   padding-top: 100px;
   padding-left: 2.5rem;
   display: flex;
   align-items: center;
+  text-align: center;
   gap: 5rem;
   @media (max-width: 1024px){
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   @media (max-width: 768px){
     justify-content: center;
@@ -27,17 +30,6 @@ const CaixaConteudo = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
-`;
-const Imagem = styled.img`
-  max-width: 100%;
-  height: auto;
-  @media (min-width: 1280px){
-   max-width: 600px;
-  }
-  @media (min-width: 1024px){
-   max-width: 600px;
-  }
-  
 `;
 
 export default function Conteudo({titulo, subtitulo, descricao, imagem}) {
