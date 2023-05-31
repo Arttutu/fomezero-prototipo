@@ -2,8 +2,9 @@ import React from 'react'
 import Conteudo from '../../Componentes/Conteudo'
 import {backgroundColor} from "../../Componentes/UI/variaveis"
 import styled from 'styled-components'
-import { Container } from '@mui/material';
+
 import ConteudoInvertido from '../../Componentes/ConteudoIvertido';
+import Parceiros from '../../Componentes/Parceiros';
 
 const Principal = styled.main`
     background-color: ${backgroundColor};
@@ -11,12 +12,18 @@ const Principal = styled.main`
     margin: 0;
     padding-top: 80px;
 `;
+const Container = styled.div`
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+`;
 
 
 export default function Home() {
   return (
     <Principal >
-    <Container maxWidth="lg">
+    <Container>
 
         <Conteudo  
         titulo="Farn Clean" 
@@ -44,6 +51,8 @@ export default function Home() {
         subtitulo= "como vamos indentificar ?"
         descricao = "Vamos utilizar IA generativa , abastecemos nossa IA com várias fotos dos ácaros vermelho, assim a nossa solução consiguira distiguir e  indentificar os invasores , aumentando a produtividade e reduzindo o prejuízo! "
         />
+        
+        <Parceiros/>
        
 
     </Container>

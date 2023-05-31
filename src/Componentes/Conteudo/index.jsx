@@ -8,7 +8,7 @@ import fazenda from "./img/fazenda.jpg"
 import camera from "./img/camera.jpg"
 const Caixa = styled.div`
   background-color: white;
-  padding-top: 2.5rem;
+  padding-top: 100px;
   padding-left: 2.5rem;
   display: flex;
   align-items: center;
@@ -30,14 +30,12 @@ const CaixaConteudo = styled.div`
 `;
 const Imagem = styled.img`
   max-width: 100%;
-  border-radius: 5px;
-
   height: auto;
   @media (min-width: 1280px){
-   max-width: 00px;
+   max-width: 600px;
   }
   @media (min-width: 1024px){
-   max-width: 500px;
+   max-width: 600px;
   }
   
 `;
