@@ -4,14 +4,14 @@ import Subtitulo from "../Subtitulo"
 import Descricao from "../Descricao"
 import styled from 'styled-components'
 import Botao from '../Botao'
-import fazenda from "./img/fazenda.jpg"
-import camera from "./img/camera.jpg"
+import acaro from "./img/acaro.jpg"
 const Caixa = styled.div`
   background-color: white;
-  padding: 2.5rem;
+  padding: 3rem;
   display: flex;
   align-items: center;
   gap: 5rem;
+  padding-top: 100px;
   @media (max-width: 1024px){
     flex-direction: column;
   }
@@ -23,6 +23,7 @@ const CaixaConteudo = styled.div`
 `;
 const Imagem = styled.img`
   max-width: 100%;
+  border-radius: 15px;
   height: auto;
   @media (min-width: 1280px){
    max-width: 600px;
@@ -33,18 +34,18 @@ const Imagem = styled.img`
   
 `;
 
-export default function Conteudo({titulo, subtitulo, descricao, imagem}) {
+export default function ConteudoInvertido({titulo, subtitulo, descricao}) {
 
   return (
     
         <Caixa>
-              <CaixaConteudo>
+            <Imagem src={acaro} alt={titulo}/>
+            <CaixaConteudo>
                 <Titulo>{titulo}</Titulo>
                 <Subtitulo>{subtitulo}</Subtitulo>
                 <Descricao>{descricao}</Descricao>
                 <Botao>Saiba Mais</Botao>
-              </CaixaConteudo>
-             <Imagem src={imagem == "fazenda" ? fazenda : camera} alt={titulo}/>
+            </CaixaConteudo>
         </Caixa>
   )
 }
