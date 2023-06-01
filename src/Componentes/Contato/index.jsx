@@ -18,7 +18,6 @@ const CaixaIcone = styled.div`
   justify-content: center;
   border-radius: 5%;
   padding: 30px;
-  cursor: pointer;
 
 `
 const StyleForm = styled.form`
@@ -28,7 +27,6 @@ const StyleForm = styled.form`
   align-items: left;
   justify-content: left;
   gap: 1rem;
-
 `
 const StyleLabel= styled.label`
   font-family: ${font};
@@ -55,7 +53,8 @@ export default function Contato() {
     <>
       <CaixaInfo >
             <Titulo>Entre em Contato</Titulo>
-            <Descricao>Vamos contruir um futuro melhor, aumente a produtividade da sua fazenda e ajude a combater a fome  e a insegurança alimentar  no mundo !</Descricao>
+            <Descricao>Vamos contruir um futuro melhor, aumente a 
+              produtividade da sua fazenda e ajude a combater a fome  e a insegurança alimentar  no mundo !</Descricao>
             <CaixaIcone>
                 <Subtitulo contato>Faça seu Cadastro</Subtitulo>
                 <StyleForm>
@@ -64,7 +63,6 @@ export default function Contato() {
                     </StyleLabel>
                     <StyleInput type='number'>
                     </StyleInput>
-                  
                     <StyleLabel>
                         E-mail:
                     </StyleLabel>
@@ -79,9 +77,7 @@ export default function Contato() {
                         Mensagem:
                     </StyleLabel>
                     <StyleMensagem name="message" >
-
                     </StyleMensagem>
-
                     <Botao>Enviar</Botao>
                     
                 </StyleForm>

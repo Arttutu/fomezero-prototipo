@@ -13,7 +13,7 @@ export default function Parceiros() {
         A ONU, em seu conjunto de Objetivos de<strong> Desenvolvimento Sustentável (ODS) </strong>, 
         inclui o ODS 2, Fome Zero e Agricultura Sustentável como metas para erradicar a fome e 
         promover sistemas agrícolas sustentáveis até <strong>2030.</strong></Descricao>
-        <Subtitulo>Nossos parceiros</Subtitulo>
+        <Titulo>Nossos parceiros</Titulo>
         <Imagem src={parceiros}></Imagem>
       </>
   )
