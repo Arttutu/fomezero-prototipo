@@ -1,0 +1,8 @@
+{
+    "name": "Farm Easy",
+    "short_name": "Farm Easy",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff"
+  }

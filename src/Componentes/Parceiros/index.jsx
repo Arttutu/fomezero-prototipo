@@ -1,9 +1,13 @@
 import React from 'react'
 import Titulo from '../Titulo'
 import Descricao from '../Descricao'
-import Subtitulo from '../Subtitulo'
 import Imagem from '../Imagem'
 import parceiros from './parceiros.png'
+import styled from 'styled-components'
+
+  const ImagemParceiros = styled(Imagem)`
+      box-shadow: none ;
+  `;
 export default function Parceiros() {
   return (
     <>
@@ -14,7 +18,7 @@ export default function Parceiros() {
         inclui o ODS 2, Fome Zero e Agricultura Sustentável como metas para erradicar a fome e 
         promover sistemas agrícolas sustentáveis até <strong>2030.</strong></Descricao>
         <Titulo>Nossos parceiros</Titulo>
-        <Imagem src={parceiros}></Imagem>
+        <ImagemParceiros src={parceiros}></ImagemParceiros>
       </>
   )
 }
