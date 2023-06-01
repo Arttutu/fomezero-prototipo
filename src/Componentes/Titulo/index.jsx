@@ -1,8 +1,9 @@
 import styled from 'styled-components'
-import { fontSecundaria } from '../UI/variaveis'
+import { corSecundaria, fontSecundaria } from '../UI/variaveis'
 const Titulo = styled.h1 `
     font-size: 42px;
     font-family: ${fontSecundaria};
+    color: ${(props) => props.contato ? corSecundaria  : ""};
 
     `
 export default Titulo

@@ -10,15 +10,16 @@ import Botao from '../Botao'
 
 const CaixaIcone = styled.div`
   width: 500px;
-  height: auto;
   background-color: ${backgroundColor};
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 5%;
+  margin-top: 50px;
   padding: 30px;
-
+  @media (max-width: 768px){
+    width: auto;
+  }
 `
 const StyleForm = styled.form`
   padding: 50px 0px;
@@ -56,7 +57,7 @@ export default function Contato() {
             <Descricao>Vamos contruir um futuro melhor, aumente a 
               produtividade da sua fazenda e ajude a combater a fome  e a insegurança alimentar  no mundo !</Descricao>
             <CaixaIcone>
-                <Subtitulo contato>Faça seu Cadastro</Subtitulo>
+                <Titulo contato>Faça seu Cadastro</Titulo>
                 <StyleForm>
                     <StyleLabel>
                         CNPJ:
