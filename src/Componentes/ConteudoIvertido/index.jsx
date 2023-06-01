@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import Botao from '../Botao'
 import acaro from "./img/acaro.jpg"
 import ia from "./img/ia.jpg"
+import Imagem from '../Imagem'
 const Caixa = styled.section`
   background-color: white;
   padding-top: 100px;
@@ -13,6 +14,7 @@ const Caixa = styled.section`
   display: flex;
   text-align: center;
   align-items: center;
+
   gap: 5rem;
 
   @media (max-width: 1024px){
@@ -30,17 +32,7 @@ const CaixaConteudo = styled.div`
   gap: 1.5rem;
   align-items: center;
 `;
-const Imagem = styled.img`
-  max-width: 100%;
-  height: auto;
-  @media (min-width: 1280px){
-   max-width:6500px;
-  }
-  @media (min-width: 1024px){
-   max-width: 600px;
-  }
-  
-`;
+
 
 export default function ConteudoInvertido({titulo, subtitulo, descricao, imagem}) {
 

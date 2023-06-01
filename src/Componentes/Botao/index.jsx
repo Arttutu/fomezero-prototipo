@@ -8,6 +8,7 @@ const Botao = styled.button `
     font-family: ${font};
     color: ${corSecundaria};
     background-color: black;
+    box-shadow: 5px 5px 5px #000000b0;
     cursor: pointer;
    
 `

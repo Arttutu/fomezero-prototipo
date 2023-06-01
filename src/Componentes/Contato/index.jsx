@@ -9,16 +9,16 @@ import Botao from '../Botao'
 
 
 const CaixaIcone = styled.div`
-  width: 500px;
+  max-width: 500px;
   background-color: ${backgroundColor};
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
-  padding: 30px;
+  padding: 40px;
   @media (max-width: 768px){
-    width: auto;
+    width: 300px;
   }
 `
 const StyleForm = styled.form`
@@ -41,6 +41,9 @@ const StyleInput= styled.input`
     border: none;
     border-radius: 5px;
     font-size: 28px;
+    @media (max-width: 768px){
+    width: 250px;
+  }
 `
 const StyleMensagem= styled.textarea`
     max-width: 500px;
