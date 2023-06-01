@@ -50,7 +50,6 @@ export default function Home() {
         subtitulo= "como vamos indentificar ?"
         descricao = "Vamos utilizar IA generativa , abastecemos nossa IA com várias fotos dos ácaros vermelho, assim a nossa solução consiguira distiguir e  indentificar os invasores , aumentando a produtividade e reduzindo o prejuízo! "
         />
-        
         <Informacao/>
     </Container>
 

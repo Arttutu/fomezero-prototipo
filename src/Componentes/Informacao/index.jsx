@@ -14,7 +14,8 @@ const Caixa = styled.section `
  justify-content: center;
  align-items: top;
  gap: 5rem;
- @media (max-width: 768px){
+ @media (max-width: 1024px){
+  align-items: center;
     flex-direction: column;
   }
 `
