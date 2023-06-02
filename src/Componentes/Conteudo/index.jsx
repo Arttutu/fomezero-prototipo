@@ -8,6 +8,7 @@ import fazenda from "./img/fazenda.jpg"
 import camera from "./img/camera.jpg"
 import { corSecundaria } from '../UI/variaveis'
 import Imagem from '../Imagem'
+import { Link } from 'react-router-dom'
 const Caixa = styled.section`
   background-color: ${corSecundaria};
   padding-top: 100px;
@@ -33,7 +34,7 @@ export const CaixaConteudo = styled.div`
   gap: 1.5rem;
 `;
 
-export default function Conteudo({titulo, subtitulo, descricao, imagem}) {
+export default function Conteudo({titulo, subtitulo, descricao, imagem, path}) {
 
   return (
     
@@ -42,7 +43,10 @@ export default function Conteudo({titulo, subtitulo, descricao, imagem}) {
                 <Titulo>{titulo}</Titulo>
                 <Subtitulo>{subtitulo}</Subtitulo>
                 <Descricao>{descricao}</Descricao>
+                <Link to={path}>
                 <Botao>Saiba Mais</Botao>
+                </Link>
+          
               </CaixaConteudo>
              <Imagem src={imagem == "fazenda" ? fazenda : camera} alt={titulo}/>
         </Caixa>
