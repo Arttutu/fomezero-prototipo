@@ -1,6 +1,5 @@
 import React from 'react'
 import Titulo from '../Titulo'
-import Subtitulo from '../Subtitulo'
 import styled from 'styled-components'
 import { backgroundColor, corSecundaria, font } from '../UI/variaveis'
 import Descricao from '../Descricao'

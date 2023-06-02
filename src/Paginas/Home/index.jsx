@@ -32,10 +32,10 @@ export default function Home() {
         imagem= "fazenda"
         />
         <ConteudoInvertido 
-        titulo="Ácaro Vermelho" 
+        titulo="As pragas" 
         subtitulo= "Os invasores"
-        descricao = "Os ácaros vermelhos são pequenos aracnídeos de cor avermelhada que podem causar danos significativos às plantas. Eles se alimentam da seiva das plantas, enfraquecendo-as e comprometendo seu crescimento saudável. Esses ácaros são particularmente prejudiciais em lavouras e jardins, onde podem se proliferar rapidamente e causar sérios prejuízos na produção agrícola."
-        imagem = "acaro"
+        descricao = "As pragas agrícolas são organismos indesejáveis que atacam as plantas cultivadas, causando danos significativos à produção de alimentos. Esses organismos podem se multiplicar rapidamente, comprometendo a qualidade das colheitas, aumentando os custos de produção e impactando negativamente a oferta de alimentos. Para combatê-las, são necessárias práticas de manejo integrado, como controle biológico, rotação de culturas e o uso responsável de pesticidas, juntamente com o desenvolvimento contínuo de novas tecnologias e pesquisas no campo agrícola."
+        imagem = "praga"
         />
         <Conteudo
         titulo="Monitoramento com Câmera na lavoura"
