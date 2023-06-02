@@ -40,16 +40,17 @@ const StyleInput= styled.input`
     padding: 10px;
     border: none;
     border-radius: 5px;
-    font-size: 28px;
+    font-size: 22px;
     @media (max-width: 768px){
     width: 250px;
+    font-family: ${font};
   }
 `
 const StyleMensagem= styled.textarea`
     max-width: 500px;
     padding: 10px;
     max-height: 500px;
-    font-size: 18px;
+    font-size: 22px;
     font-family: ${font};
 `
 export default function Contato() {
@@ -65,22 +66,29 @@ export default function Contato() {
                     <StyleLabel>
                         CNPJ:
                     </StyleLabel>
-                    <StyleInput type='number'>
+                    <StyleInput type='number' placeholder='xx. xxx. xxx/xxxx-xx'>
                     </StyleInput>
                     <StyleLabel>
                         E-mail:
                     </StyleLabel>
-                    <StyleInput type='text'>
+                    <StyleInput type='text' placeholder='seuemail@domínio.com'>
                     </StyleInput>
                     <StyleLabel>
-                        Hectares:
+                        Endereço:
                     </StyleLabel>
-                    <StyleInput type='number'>
+                    <StyleInput type='text' placeholder='Seu endereço'>
+                   
+                   </StyleInput>
+                    <StyleLabel>
+                        Hectare:
+                    </StyleLabel>
+                    <StyleInput type='text' placeholder='Tamanho da sua Fazenda'>
+                   
                     </StyleInput>
                     <StyleLabel>
                         Mensagem:
                     </StyleLabel>
-                    <StyleMensagem name="message" >
+                    <StyleMensagem name="message" placeholder='Deixa sua mensagem'>
                     </StyleMensagem>
                     <Botao>Enviar</Botao>
                     
