@@ -60,7 +60,7 @@ export default function Contato() {
             <Descricao>Vamos contruir um futuro melhor, aumente a 
               produtividade da sua fazenda e ajude a combater a fome  e a insegurança alimentar  no mundo !</Descricao>
             <CaixaIcone>
-                <Titulo contato>Faça seu Cadastro</Titulo>
+                <Titulo secondary>Faça seu Cadastro</Titulo>
                 <StyleForm>
                     <StyleLabel>
                         CNPJ:
@@ -73,9 +73,9 @@ export default function Contato() {
                     <StyleInput type='text' placeholder='seuemail@domínio.com'>
                     </StyleInput>
                     <StyleLabel>
-                        Endereço:
+                        Região:
                     </StyleLabel>
-                    <StyleInput type='text' placeholder='Seu endereço'>
+                    <StyleInput type='text' placeholder='Sua Região'>
                    
                    </StyleInput>
                     <StyleLabel>

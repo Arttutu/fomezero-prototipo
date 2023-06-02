@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { backgroundColor, corSecundaria } from '../UI/variaveis'
 import { Container, Principal } from '../../Paginas/Home'
 import Subtitulo from '../Subtitulo'
+import Regiao from '../Regiao'
 
  const PrincipalProduto = styled.main`
     text-align: center;
@@ -12,11 +13,12 @@ import Subtitulo from '../Subtitulo'
     padding-top: 80px;
 `;
  const ContainerProduto = styled.div`
- background-color: ${corSecundaria};
- height: calc(100vh - 119px);
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+    background-color: ${corSecundaria};
+   
+    max-width: 1440px;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
 `;
 
 export default function Ideia() {
@@ -26,6 +28,7 @@ export default function Ideia() {
       <ContainerProduto>
         <Titulo>Nosso Produto</Titulo>
         <Subtitulo>Veja um exemplo como nosso produto funciona !</Subtitulo>
+        <Regiao />
       </ContainerProduto>
 
     </PrincipalProduto>
