@@ -30,7 +30,7 @@ const Caixa = styled.section`
   }
 `
 export const CaixaConteudo = styled.div`
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
