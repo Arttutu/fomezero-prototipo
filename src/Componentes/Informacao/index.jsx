@@ -1,21 +1,19 @@
+import React from "react"
+import styled from "styled-components"
+import { corSecundaria } from "../UI/variaveis"
+import Parceiros from "../Parceiros"
+import Contato from "../Contato"
 
-import React from 'react'
-import styled from 'styled-components'
-import { corSecundaria } from '../UI/variaveis'
-import Parceiros from '../Parceiros'
-import Contato from '../Contato'
-
-
-const Caixa = styled.section `
- background-color: ${corSecundaria};
- text-align: center;
- padding: 100px 2.5rem;
- display: flex;
- justify-content: center;
- align-items: top;
- gap: 5rem;
- @media (max-width: 1024px){
-  align-items: center;
+const Caixa = styled.section`
+  background-color: ${corSecundaria};
+  text-align: center;
+  padding: 100px 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  gap: 5rem;
+  @media (max-width: 1024px) {
+    align-items: center;
     flex-direction: column;
   }
 `
@@ -27,21 +25,19 @@ export const CaixaInfo = styled.div`
   align-items: center;
   width: 50%;
   gap: 1.5rem;
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     gap: 2rem;
     width: 100%;
   }
-`;
+`
 
 export default function Informacao() {
   return (
     <Caixa>
       <CaixaInfo>
         <Parceiros />
-      </CaixaInfo >
+      </CaixaInfo>
       <Contato />
     </Caixa>
-      
-
   )
 }
