@@ -43,7 +43,7 @@ export default function Ideia() {
           cor="alto"
           imagem="largataCartucho"
           path="/produto"
-          botao="Mais informações (IA em contrução)"
+          botao="Mais informações (IA em construção)"
         />
         <Conteudo
           titulo="Lavoura Cana de Açucar"
@@ -52,7 +52,7 @@ export default function Ideia() {
           propagacao="Baixo"
           imagem="chonilha"
           path="/produto"
-          botao="Mais informações (IA em contrução)"
+          botao="Mais informações (IA em construção)"
         />
         <Conteudo
           titulo="Lavoura Milho"
@@ -61,7 +61,7 @@ export default function Ideia() {
           propagacao="Baixo"
           imagem="percevejo"
           path="/produto"
-          botao="Mais informações (IA em contrução)"
+          botao="Mais informações (IA em construção)"
         />
         <Conteudo
           titulo="Lavoura Batata"
@@ -69,7 +69,7 @@ export default function Ideia() {
           descricao="Nenhuma Praga indentificada"
           imagem="ok"
           path="/produto"
-          botao="Mais informações (IA em contrução)"
+          botao="Mais informações (IA em construção)"
         />
       </ContainerProduto>
     </PrincipalProduto>
