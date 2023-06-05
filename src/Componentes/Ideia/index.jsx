@@ -36,28 +36,40 @@ export default function Ideia() {
         <ExamplePage />
         <Titulo>Pragas indentificas na sua Lavoura</Titulo>
         <Conteudo
-          titulo="Lavoura 1 "
+          titulo="Lavoura Milho"
           subtitulo="Largata Cartucho"
-          descricao="Foto"
+          descricao="Nível de propagação:"
+          propagacao="Alto"
+          cor="alto"
           imagem="largataCartucho"
           path="/produto"
-          botao="Mais informações"
+          botao="Mais informações (IA em contrução)"
         />
         <Conteudo
-          titulo="Lavoura 3 "
+          titulo="Lavoura Cana de Açucar"
           subtitulo="Choconiha"
-          descricao=""
+          descricao="Nível de propagação:"
+          propagacao="Baixo"
           imagem="chonilha"
           path="/produto"
-          botao="Mais informações"
+          botao="Mais informações (IA em contrução)"
         />
         <Conteudo
-          titulo="Lavoura 1"
+          titulo="Lavoura Milho"
           subtitulo="Percevejo"
-          descricao="."
+          descricao="Nível de propagação:"
+          propagacao="Baixo"
           imagem="percevejo"
           path="/produto"
-          botao="Mais informações"
+          botao="Mais informações (IA em contrução)"
+        />
+        <Conteudo
+          titulo="Lavoura Batata"
+          subtitulo=" Pragas"
+          descricao="Nenhuma Praga indentificada"
+          imagem="ok"
+          path="/produto"
+          botao="Mais informações (IA em contrução)"
         />
       </ContainerProduto>
     </PrincipalProduto>

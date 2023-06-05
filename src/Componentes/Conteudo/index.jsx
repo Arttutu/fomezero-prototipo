@@ -9,9 +9,11 @@ import largataCartucho from "./img/largataCartucho.png"
 import chonilha from "./img/choconilha.jpg"
 import percevejo from "./img/percevejo.jpg"
 import camera from "./img/camera.jpg"
+import ok from "./img/ok.png"
 import { corSecundaria } from "../UI/variaveis"
 import Imagem from "../Imagem"
 import { Link } from "react-router-dom"
+import Propagacao from "../Propagacao"
 const Caixa = styled.section`
   background-color: ${corSecundaria};
   padding-top: 100px;
@@ -44,6 +46,8 @@ export default function Conteudo({
   imagem,
   path,
   botao,
+  propagacao,
+  cor,
 }) {
   return (
     <Caixa>
@@ -51,6 +55,7 @@ export default function Conteudo({
         <Titulo>{titulo}</Titulo>
         <Subtitulo>{subtitulo}</Subtitulo>
         <Descricao>{descricao}</Descricao>
+        <Propagacao propagacao={propagacao} cor={cor}></Propagacao>
         <Link to={path}>
           <Botao>{botao}</Botao>
         </Link>
@@ -65,6 +70,8 @@ export default function Conteudo({
             ? chonilha
             : imagem == "percevejo"
             ? percevejo
+            : imagem == "ok"
+            ? ok
             : camera
         }
         alt={titulo}
