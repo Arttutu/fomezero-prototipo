@@ -5,7 +5,9 @@ import Descricao from "../Descricao"
 import styled from "styled-components"
 import Botao from "../Botao"
 import fazenda from "./img/fazenda.jpg"
-import largataCartucho from "./img/largataCartucho.jpg"
+import largataCartucho from "./img/largataCartucho.png"
+import chonilha from "./img/choconilha.jpg"
+import percevejo from "./img/percevejo.jpg"
 import camera from "./img/camera.jpg"
 import { corSecundaria } from "../UI/variaveis"
 import Imagem from "../Imagem"
@@ -59,6 +61,10 @@ export default function Conteudo({
             ? fazenda
             : imagem == "largataCartucho"
             ? largataCartucho
+            : imagem == "chonilha"
+            ? chonilha
+            : imagem == "percevejo"
+            ? percevejo
             : camera
         }
         alt={titulo}

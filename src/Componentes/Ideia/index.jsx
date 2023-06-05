@@ -12,7 +12,11 @@ const PrincipalProduto = styled.main`
   text-align: center;
   background-color: ${backgroundColor};
   width: 100%;
-  padding-top: 80px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 const ContainerProduto = styled.div`
   background-color: ${corSecundaria};
@@ -20,6 +24,7 @@ const ContainerProduto = styled.div`
   padding-top: 80px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 100px;
 `
 
 export default function Ideia() {
@@ -29,7 +34,7 @@ export default function Ideia() {
         <Titulo>Nosso Produto</Titulo>
         <Subtitulo>Veja um exemplo como nosso produto funciona !</Subtitulo>
         <ExamplePage />
-        <Titulo>Pragas indentificas</Titulo>
+        <Titulo>Pragas indentificas na sua Lavoura</Titulo>
         <Conteudo
           titulo="Lavoura 1 "
           subtitulo="Largata Cartucho"
@@ -39,18 +44,18 @@ export default function Ideia() {
           botao="Mais informações"
         />
         <Conteudo
-          titulo="Lavoura 1 "
-          subtitulo="Praga y"
+          titulo="Lavoura 3 "
+          subtitulo="Choconiha"
           descricao=""
-          imagem="fazenda"
+          imagem="chonilha"
           path="/produto"
           botao="Mais informações"
         />
         <Conteudo
-          titulo="Lavoura 4 "
-          subtitulo="Praga y"
+          titulo="Lavoura 1"
+          subtitulo="Percevejo"
           descricao="."
-          imagem="fazenda"
+          imagem="percevejo"
           path="/produto"
           botao="Mais informações"
         />

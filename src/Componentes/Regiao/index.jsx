@@ -2,7 +2,7 @@ import React from "react"
 import Titulo from "../Titulo"
 import styled from "styled-components"
 import nordeste from "./nordeste.png"
-import Subtitulo from "../Subtitulo"
+
 import Plantio from "../Plantio"
 import { backgroundColor } from "../UI/variaveis"
 
@@ -18,25 +18,29 @@ const ImagemRegiao = styled.img`
   }
 `
 const ContainerRegiao = styled.div`
-  margin: 100px 50px;
+  margin: 100px 0px;
   display: flex;
   align-items: top;
+  justify-content: space-around;
   text-align: center;
   @media (max-width: 768px) {
     flex-direction: column;
+
+    align-items: center;
   }
 `
 const ContainerPraga = styled.div`
-  width: 50%;
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: top;
+  margin-top: 100px;
   @media (max-width: 768px) {
-    width: 100%;
+    align-items: center;
   }
 `
 const ContainerImagem = styled.div`
-  width: 50%;
+  width: 500px;
   padding-top: 20px;
   display: flex;
   align-items: center;

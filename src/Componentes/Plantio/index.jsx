@@ -13,6 +13,10 @@ const ContainerPlantio = styled.div`
   margin-top: 100px;
   gap: 2rem;
   flex-wrap: wrap;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 const ContainerProduto = styled.div`
   height: 200px;
