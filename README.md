@@ -2,7 +2,7 @@
 
 # Farm Clean
 
-Desafio proposto pela microsoft e a ong caça-fome , a tecnologia e a inovação têm um papel fundamental a desempenhar no combate à fome mundial e à escassez de alimentos. Você e seu time tem o desafio de desenvolver uma solução em software que interaja com uma IA generativa. Analise as metas da ODS2 e encontre uma solução inovadora e que permita alcançar alguma meta.
+IAs generativas, Inovação e Tecnologia ajudando a solucionar os problemas da Fome mundial e da escassez de alimentos, promovendo a agricultura sustentável. Fui responável pela prototipação do projeto
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
@@ -14,6 +14,18 @@ Desafio proposto pela microsoft e a ong caça-fome , a tecnologia e a inovação
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://github.com/Arttutu/fomezero-prototipo/blob/master/index.png?raw=true#vitrinedev)
 
-## Detalhes do projeto
+## O desafio
+
+A fome mundial e a escassez de alimentos são problemas complexos e urgentes que afetam milhões de pessoas em todo o mundo. A ONU, em seu conjunto de Objetivos de Desenvolvimento Sustentável (ODS), inclui o ODS 2, Fome Zero e Agricultura Sustentável como metas para erradicar a fome e promover sistemas agrícolas sustentáveis até 2030.
+
+## Habilidades desenvolvidas.
+
+Estudo do React e da estilização da leading page com Styled-Component
+
+As IAs generativas são tecnologias promissoras que podem ajudar a solucionar esses problemas. Essas IAs são capazes de gerar imagens, texto e até mesmo som de forma autônoma, com base em um conjunto de dados de entrada.
+
+
+## Como usar
+Deploy do projeto: https//fomezero-prototipo.vercel.app
 
 
