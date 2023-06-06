@@ -22,8 +22,6 @@ A fome mundial e a escassez de alimentos são problemas complexos e urgentes que
 
 Estudo do React e da estilização da leading page com Styled-Component
 
-As IAs generativas são tecnologias promissoras que podem ajudar a solucionar esses problemas. Essas IAs são capazes de gerar imagens, texto e até mesmo som de forma autônoma, com base em um conjunto de dados de entrada.
-
 
 ## Como usar
 Deploy do projeto: https//fomezero-prototipo.vercel.app
